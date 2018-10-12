@@ -5,6 +5,7 @@
     overflow: hidden;
     top: 0;
     width: 100%;
+    position: fixed;
 }
 
 /* Style the links inside the navigation bar */
@@ -36,7 +37,6 @@
 }
 
 #about a{
-  text-decoration: none;
   color: black;
 }
 
