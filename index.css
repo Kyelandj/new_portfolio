@@ -1,0 +1,200 @@
+/* Add a black background color to the top navigation */
+.header {
+    z-index: 1;
+    background-color: black;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.header a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 34px 36px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+/* Change the color of links on hover */
+.header a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* Add a color to the active/current link */
+.header a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#about p{
+  text-align: center;
+  text-decoration: justify;
+}
+
+#about a{
+  text-decoration: none;
+  color: black;
+}
+
+#projects p{
+  text-align: center;
+}
+
+/* Add Facebook, Twitter, LinkedIn, GitHub Link Things */
+.footer {
+	background: black;
+	color: white;
+}
+
+.footer p {
+  font-size: 32px;
+}
+
+.footer img {
+  float:right;
+  width: 250px;
+  border: 3px solid white;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+/* Add floater effect to turn b/w image to color*/
+.footer img:hover {
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(0%);
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(0%);
+  -o-transition: .5s ease-in-out;
+} 
+
+/* Social Media buttons */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: white;
+    color:black;
+}
+
+/* Headings */
+h1 {
+	font-size: 35px;
+	font-family: 'Old Standard TT', serif;
+	color: white;
+}
+
+h2 {
+	font-size: 35px;
+	font-family: 'Old Standard TT', serif;
+  text-align: center;
+}
+
+h3 {
+  font-size: 35px;
+  font-family: 'Old Standard TT', serif;
+}
+
+
+
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 0;
+}
+
+hr { 
+  display: block; 
+  height: 60px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: black; 
+  border-width: 0 0 5px 0; 
+  border-radius: 20px; 
+  width: 100%;
+} 
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: center;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+    text-align: right;
+}
+.column1 {
+    float: right;
+    width: 50%;
+    padding: 10px;
+}
+.column2 {
+    float: right;
+    width: 50%;
+    padding: 10px;
+}
+
+.column3 {
+    float: right;
+    width: 50%;
+    padding: 10px;
+}
+
+}
+/* Column for Mobile */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/* Clear floats after the columns */
+
+.row img {
+  height: auto;
+  width: 385px;
+  border: 3px solid black;
+  float:left;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+/* Add floater effect to turn b/w image to color*/
+.row img:hover {
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(0%);
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(0%);
+  -o-transition: .5s ease-in-out;
+} 
+
+}
+
+body{
+	background-color: white;
+	color: black;
+}
+
+p {
+	font-size: 35px;
+}
